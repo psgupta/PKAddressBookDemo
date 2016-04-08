@@ -23,6 +23,7 @@
     FetchContacts *contactObj = [[FetchContacts alloc]init];
     arrContacts = [[contactObj fetchAllContacts] mutableCopy];
     
+    NSLog(@"arrContacts %zd",arrContacts.count);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
